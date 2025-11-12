@@ -25,3 +25,5 @@ let user:{
 }
 
 console.log(user);
+
+//function as type
