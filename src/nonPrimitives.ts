@@ -23,3 +23,5 @@ let user:{
     age: 22,
     isStudent: true,
 }
+
+console.log(user);
