@@ -5,8 +5,8 @@ type user ={
     age:number,
 }
 const response = {} as user;
-response.name = 'sd';
-response.age = 30;
+response.name = 'SD NATH';
+response.age = 23;
 
 let value:any = "hello";
 let num = value as number ;
