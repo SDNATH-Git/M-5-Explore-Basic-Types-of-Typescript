@@ -19,6 +19,12 @@ const userResponse: ApiResponse<User> = {
   data: { id: 1, name: "Shuvo" },
 };
 
+//text
+console.log(userResponse);
+// Output
+// { status: 200, message: 'Success', data: { id: 1, name: 'Shuvo' } }
+
+
 // Product API
 interface Product {
   id: number;
@@ -32,5 +38,12 @@ const productResponse: ApiResponse<Product> = {
   data: { id: 101, title: "Laptop", price: 50000 },
 };
 
-console.log(userResponse);
 
+//text
+console.log(productResponse);
+// Output
+//  {
+//   status: 200,
+//   message: 'Success',
+//   data: { id: 101, title: 'Laptop', price: 50000 }
+// } 
