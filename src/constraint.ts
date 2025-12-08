@@ -5,3 +5,4 @@ function printValue<T extends object>(value: T){
 
 }
 
+printValue({name: "SD", age:23});
