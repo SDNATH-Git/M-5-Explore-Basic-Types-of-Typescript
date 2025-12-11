@@ -6,7 +6,7 @@ function printValue<T extends object>(value: T){
 
 }
 
-printValue({name: "SD", age:23, job: "Developer" , ID : 12345});
+// printValue({name: "SD", age:23, job: "Developer" , ID : 12345});
 
-// printValue(10);                // ❌ error — object না
+printValue(shuvo);                // ❌ error — object না
 
